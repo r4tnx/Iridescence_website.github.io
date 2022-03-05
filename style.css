@@ -4,7 +4,7 @@ body{
 }
 h2{
     color: rgb(255, 255, 255);
-    font-size: 70px;
+    font-size: 400%;
     font-weight: bolder;
     
 
@@ -15,7 +15,7 @@ p{
     padding: 20px;
     border: 2px solid whitesmoke;
     margin: 80px;
-    font-size: 40px;
+    font-size: 200%;
     align-content: center;
     font-style: italic;
     text-align: center;
