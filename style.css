@@ -1,0 +1,70 @@
+body{
+    background-color: black;
+    padding-top: 20px;
+}
+h2{
+    color: rgb(255, 255, 255);
+    font-size: 70px;
+    font-weight: bolder;
+    
+
+
+}
+p{
+    color: cornsilk;
+    padding: 20px;
+    border: 2px solid whitesmoke;
+    margin: 80px;
+    font-size: 40px;
+    align-content: center;
+    font-style: italic;
+    text-align: center;
+
+}
+.Header{
+    color: whitesmoke;
+    height: auto;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.Nav-links{
+    padding: 28px 0;
+
+}
+.Nav-links li{
+    display: inline-block;
+    margin: 0 15px;
+
+}
+.Nav-links li a{
+    text-decoration: none;
+    color: whitesmoke;
+    padding: 5px 0;
+    position :relative;
+
+}
+.Nav-links li a::after{
+    content:'';
+    background: #ff3d00;
+    width: 0;
+    height: 2px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transition: width 0.5s;
+
+}
+.Nav-links li a:hover::after{
+    width: 100%;
+}
+.logoroll{
+    
+}
+h1{
+    color: whitesmoke;
+    text-align: center;
+}
