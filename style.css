@@ -6,6 +6,7 @@ h2{
     color: rgb(255, 255, 255);
     font-size: 400%;
     font-weight: bolder;
+    text-align: center;
     
 
 
@@ -61,10 +62,25 @@ nav{
 .Nav-links li a:hover::after{
     width: 100%;
 }
-.logoroll{
-    
-}
+
 h1{
     color: whitesmoke;
     text-align: center;
+}
+.Youtube{
+    display: flex;
+    padding: 7%;
+    justify-content: space-between;
+    
+}
+h3{
+    color: wheat;
+    padding-inline: 10%;
+    display: flexbox;
+    
+}
+.teamimg{
+    border: 10px solid whitesmoke;
+    border: 2px solid black;
+    padding-inline: 5%;
 }
